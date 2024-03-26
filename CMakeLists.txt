@@ -123,7 +123,6 @@ include_directories(
 add_library(${PROJECT_NAME}
   src/robot_info_class.cpp
   src/agv_robot_info_class.cpp
-  src/hydraulic_system_monitor.cpp
 )
 
 ## Add cmake target dependencies of the library

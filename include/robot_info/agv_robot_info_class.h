@@ -4,7 +4,6 @@
 #include <ros/ros.h>
 #include <robotinfo_msgs/RobotInfo10Fields.h>
 #include <robot_info/robot_info_class.h>
-#include <robot_info/hydraulic_system_monitor.h>
 #include <string>
 
 class AGVRobotInfo: public RobotInfo{
@@ -14,6 +13,5 @@ class AGVRobotInfo: public RobotInfo{
         void publish_data();
     protected:
         std::string maximum_payload;
-        HydraulicSystemMonitor hsm;
 
 };
